@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Title" />
+
+        <EditText
+            android:id="@+id/editDispTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:layout_margin="5dp"
+            >
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date" />
+
+        <EditText
+            android:id="@+id/editDispDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:layout_margin="5dp"
+            >
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+
+        <EditText
+            android:id="@+id/editDispStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable = "false"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End" />
+
+        <EditText
+            android:id="@+id/editDispEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable = "false"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"/>
+
+        <EditText
+            android:id="@+id/editDispLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable = "false"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"/>
+
+        <EditText
+            android:id="@+id/editDispDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable = "false"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="URL"/>
+
+        <EditText
+            android:id="@+id/editDispUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable = "false"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/btnSavetoMyDEvents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:onClick="onSavetoMyDEvents"
+            android:text="Save to My DEvents" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:onClick="onBackClicked"
+            android:text="Back" >
+        </Button>
+
+    </LinearLayout>
+</ScrollView>
